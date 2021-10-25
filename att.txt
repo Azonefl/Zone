@@ -10,6 +10,9 @@ class Parents{
 	public static void blue_eyes(){
 		Console.WriteLine("Глаза очень синие");
 	}
+public static void money(){
+		Console.WriteLine("+10000 рублей");
+	}
 		
 	}
 
@@ -25,8 +28,9 @@ class Program {
         Boy palevo = new Boy();
 		Boy.green_eyes();
 		Girl gash = new Girl();
-		Girl.age();
-		It gash = new It();
+		Girl.blue_eyes();
+		It asd = new It();
 		It.age();
+		It.money();
     }
 }
