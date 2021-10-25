@@ -1,0 +1,32 @@
+using System;
+
+class Parents{ 
+	public static void age(){
+		Console.WriteLine("1000 let me die");
+	}
+	public static void green_eyes(){
+		Console.WriteLine("Глаза очень зеленые");
+	}
+	public static void blue_eyes(){
+		Console.WriteLine("Глаза очень синие");
+	}
+		
+	}
+
+class Boy : Parents{
+}
+class Girl : Parents{
+}
+class It : Parents{
+}
+
+class Program {
+    static void Main(string[] args) {
+        Boy palevo = new Boy();
+		Boy.green_eyes();
+		Girl gash = new Girl();
+		Girl.age();
+		It gash = new It();
+		It.age();
+    }
+}
